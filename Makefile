@@ -8,6 +8,8 @@ DESKTOP_FILE = $(APP_NAME).desktop
 
 all: install clean
 
+
+
 build:
 #	pip install --user pyinstaller
 	pyinstaller --onefile --windowed --name=$(APP_NAME) $(SCRIPT)
